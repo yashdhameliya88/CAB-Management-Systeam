@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E14F683E-1EC1-4E91-8DA6-1563D329A4F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fast_CAB_Services</RootNamespace>
+    <AssemblyName>Fast CAB Services</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAllocationAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAllocationAdd.Designer.cs">
+      <DependentUpon>AdminAllocationAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAllocationUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAllocationUpdate.Designer.cs">
+      <DependentUpon>AdminAllocationUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAllocationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAllocationView.Designer.cs">
+      <DependentUpon>AdminAllocationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBillAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBillAdd.Designer.cs">
+      <DependentUpon>AdminBillAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBillUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBillUpdate.Designer.cs">
+      <DependentUpon>AdminBillUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBillView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBillView.Designer.cs">
+      <DependentUpon>AdminBillView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEmployeeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEmployeeUpdate.Designer.cs">
+      <DependentUpon>AdminEmployeeUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEmployeeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEmployeeView.Designer.cs">
+      <DependentUpon>AdminEmployeeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManagerUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminManagerUpdateForm.Designer.cs">
+      <DependentUpon>AdminManagerUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManagerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminManagerView.Designer.cs">
+      <DependentUpon>AdminManagerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRouteUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRouteUpdate.Designer.cs">
+      <DependentUpon>AdminRouteUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVehicleUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVehicleUpdate.Designer.cs">
+      <DependentUpon>AdminVehicleUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVenderUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVenderUpdate.Designer.cs">
+      <DependentUpon>AdminVenderUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEmployeeRegistation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEmployeeRegistation.Designer.cs">
+      <DependentUpon>AdminEmployeeRegistation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerAllocationAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerAllocationAdd.Designer.cs">
+      <DependentUpon>ManagerAllocationAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerAllocationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerAllocationView.Designer.cs">
+      <DependentUpon>ManagerAllocationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerEmpRegistation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerEmpRegistation.Designer.cs">
+      <DependentUpon>ManagerEmpRegistation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradientColor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.Designer.cs">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManagerRegistation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminManagerRegistation.Designer.cs">
+      <DependentUpon>AdminManagerRegistation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerEmpView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerEmpView.Designer.cs">
+      <DependentUpon>ManagerEmpView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerVenderAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerVenderAdd.Designer.cs">
+      <DependentUpon>ManagerVenderAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerVenderView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerVenderView.Designer.cs">
+      <DependentUpon>ManagerVenderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AdminRouteAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRouteAdd.Designer.cs">
+      <DependentUpon>AdminRouteAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRouteView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRouteView.Designer.cs">
+      <DependentUpon>AdminRouteView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVehicleAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVehicleAdd.Designer.cs">
+      <DependentUpon>AdminVehicleAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVehicleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVehicleView.Designer.cs">
+      <DependentUpon>AdminVehicleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVenderAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVenderAdd.Designer.cs">
+      <DependentUpon>AdminVenderAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminVenderView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminVenderView.Designer.cs">
+      <DependentUpon>AdminVenderView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAllocationAdd.resx">
+      <DependentUpon>AdminAllocationAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAllocationUpdate.resx">
+      <DependentUpon>AdminAllocationUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAllocationView.resx">
+      <DependentUpon>AdminAllocationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBillAdd.resx">
+      <DependentUpon>AdminBillAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBillUpdate.resx">
+      <DependentUpon>AdminBillUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBillView.resx">
+      <DependentUpon>AdminBillView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminEmployeeRegistation.resx">
+      <DependentUpon>AdminEmployeeRegistation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminEmployeeUpdate.resx">
+      <DependentUpon>AdminEmployeeUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminEmployeeView.resx">
+      <DependentUpon>AdminEmployeeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminManagerUpdateForm.resx">
+      <DependentUpon>AdminManagerUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminManagerView.resx">
+      <DependentUpon>AdminManagerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRouteUpdate.resx">
+      <DependentUpon>AdminRouteUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVehicleUpdate.resx">
+      <DependentUpon>AdminVehicleUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVenderUpdate.resx">
+      <DependentUpon>AdminVenderUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerAllocationAdd.resx">
+      <DependentUpon>ManagerAllocationAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerAllocationView.resx">
+      <DependentUpon>ManagerAllocationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerEmpRegistation.resx">
+      <DependentUpon>ManagerEmpRegistation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager.resx">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminManagerRegistation.resx">
+      <DependentUpon>AdminManagerRegistation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerEmpView.resx">
+      <DependentUpon>ManagerEmpView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerVenderAdd.resx">
+      <DependentUpon>ManagerVenderAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerVenderView.resx">
+      <DependentUpon>ManagerVenderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="AdminRouteAdd.resx">
+      <DependentUpon>AdminRouteAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRouteView.resx">
+      <DependentUpon>AdminRouteView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVehicleAdd.resx">
+      <DependentUpon>AdminVehicleAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVehicleView.resx">
+      <DependentUpon>AdminVehicleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVenderAdd.resx">
+      <DependentUpon>AdminVenderAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminVenderView.resx">
+      <DependentUpon>AdminVenderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Database1DataSet.xsc">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet.xss">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAB Photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAB Services Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAB Photo Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\icons8-user-group-48.png" />
+    <None Include="Resources\icons8-manager-16.png" />
+    <None Include="Resources\icons8-keepass-48.png" />
+    <None Include="Resources\User white1.png" />
+    <None Include="Resources\Registation.png" />
+    <None Include="Resources\Next.png" />
+    <None Include="Resources\Back3.png" />
+    <None Include="Resources\Back-icon.png" />
+    <None Include="Resources\backarrow.png" />
+    <None Include="Resources\Back2.png" />
+    <None Include="Resources\Back1.png" />
+    <None Include="Resources\Back.png" />
+    <None Include="Resources\Earth CAB.png" />
+    <None Include="Resources\Logout.png" />
+    <None Include="Resources\EYE11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
