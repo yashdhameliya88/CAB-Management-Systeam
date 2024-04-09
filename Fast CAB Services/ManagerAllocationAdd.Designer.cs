@@ -465,6 +465,7 @@
             this.ClientSize = new System.Drawing.Size(1292, 740);
             this.Controls.Add(this.panel_LoginPage);
             this.Name = "Form_ManagerAllocationAdd";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManagerAllocationAdd";
             this.Load += new System.EventHandler(this.Form_ManagerAllocationAdd_Load);
             this.panel_LoginPage.ResumeLayout(false);

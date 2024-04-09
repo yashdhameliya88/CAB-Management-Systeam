@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_AdminBillAdd));
             this.panel_LoginPage = new System.Windows.Forms.Panel();
-            this.panel_CABLogo = new System.Windows.Forms.Panel();
-            this.pictureBox__CABLogo = new System.Windows.Forms.PictureBox();
             this.gradientColor2 = new Fast_CAB_Services.GradientColor();
             this.ComboBox_Source = new System.Windows.Forms.ComboBox();
             this.ComboBox_Destination = new System.Windows.Forms.ComboBox();
@@ -91,19 +89,21 @@
             this.viewToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.updateToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabel_Logout = new System.Windows.Forms.LinkLabel();
+            this.panel_CABLogo = new System.Windows.Forms.Panel();
+            this.pictureBox__CABLogo = new System.Windows.Forms.PictureBox();
             this.gradientColor_TitleBar = new Fast_CAB_Services.GradientColor();
             this.lbl_AdminBillAdd = new System.Windows.Forms.Label();
             this.pictureBox_MinimizeButton = new System.Windows.Forms.PictureBox();
             this.pictureBox_MaximizeButton = new System.Windows.Forms.PictureBox();
             this.pictureBox_CloseButton = new System.Windows.Forms.PictureBox();
             this.panel_LoginPage.SuspendLayout();
-            this.panel_CABLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox__CABLogo)).BeginInit();
             this.gradientColor2.SuspendLayout();
             this.gradientColor3.SuspendLayout();
             this.gradientColor1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logout)).BeginInit();
             this.menuStrip_HR_Manager.SuspendLayout();
+            this.panel_CABLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox__CABLogo)).BeginInit();
             this.gradientColor_TitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MinimizeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MaximizeButton)).BeginInit();
@@ -123,24 +123,6 @@
             this.panel_LoginPage.Name = "panel_LoginPage";
             this.panel_LoginPage.Size = new System.Drawing.Size(1295, 775);
             this.panel_LoginPage.TabIndex = 8;
-            // 
-            // panel_CABLogo
-            // 
-            this.panel_CABLogo.Controls.Add(this.pictureBox__CABLogo);
-            this.panel_CABLogo.Location = new System.Drawing.Point(12, 48);
-            this.panel_CABLogo.Name = "panel_CABLogo";
-            this.panel_CABLogo.Size = new System.Drawing.Size(1277, 128);
-            this.panel_CABLogo.TabIndex = 1;
-            // 
-            // pictureBox__CABLogo
-            // 
-            this.pictureBox__CABLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox__CABLogo.Image")));
-            this.pictureBox__CABLogo.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox__CABLogo.Name = "pictureBox__CABLogo";
-            this.pictureBox__CABLogo.Size = new System.Drawing.Size(1277, 128);
-            this.pictureBox__CABLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox__CABLogo.TabIndex = 0;
-            this.pictureBox__CABLogo.TabStop = false;
             // 
             // gradientColor2
             // 
@@ -397,6 +379,7 @@
             this.btn_Show.TabIndex = 83;
             this.btn_Show.Text = "Show";
             this.btn_Show.UseVisualStyleBackColor = false;
+            this.btn_Show.Click += new System.EventHandler(this.btn_Show_Click);
             // 
             // txt_BillID
             // 
@@ -725,6 +708,24 @@
             this.linkLabel_Logout.Text = "Logout";
             this.linkLabel_Logout.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_Logout_LinkClicked);
             // 
+            // panel_CABLogo
+            // 
+            this.panel_CABLogo.Controls.Add(this.pictureBox__CABLogo);
+            this.panel_CABLogo.Location = new System.Drawing.Point(12, 48);
+            this.panel_CABLogo.Name = "panel_CABLogo";
+            this.panel_CABLogo.Size = new System.Drawing.Size(1277, 128);
+            this.panel_CABLogo.TabIndex = 1;
+            // 
+            // pictureBox__CABLogo
+            // 
+            this.pictureBox__CABLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox__CABLogo.Image")));
+            this.pictureBox__CABLogo.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox__CABLogo.Name = "pictureBox__CABLogo";
+            this.pictureBox__CABLogo.Size = new System.Drawing.Size(1277, 128);
+            this.pictureBox__CABLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox__CABLogo.TabIndex = 0;
+            this.pictureBox__CABLogo.TabStop = false;
+            // 
             // gradientColor_TitleBar
             // 
             this.gradientColor_TitleBar.ColorBottom = System.Drawing.Color.RoyalBlue;
@@ -792,8 +793,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form Bill Add";
             this.panel_LoginPage.ResumeLayout(false);
-            this.panel_CABLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox__CABLogo)).EndInit();
             this.gradientColor2.ResumeLayout(false);
             this.gradientColor2.PerformLayout();
             this.gradientColor3.ResumeLayout(false);
@@ -802,6 +801,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logout)).EndInit();
             this.menuStrip_HR_Manager.ResumeLayout(false);
             this.menuStrip_HR_Manager.PerformLayout();
+            this.panel_CABLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox__CABLogo)).EndInit();
             this.gradientColor_TitleBar.ResumeLayout(false);
             this.gradientColor_TitleBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MinimizeButton)).EndInit();

@@ -23,5 +23,10 @@ namespace Fast_CAB_Services
             this.Hide();
             fa.Show();
         }
+
+        private void btn_Update_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

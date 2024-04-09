@@ -85,3 +85,43 @@ D:\YD\CAB Management Systeam__201806100110097__201806100110110\CAB Management Sy
 D:\YD\CAB Management Systeam__201806100110097__201806100110110\CAB Management Systeam\Fast CAB Services\bin\Debug\Fast CAB Services.exe.config
 D:\YD\CAB Management Systeam__201806100110097__201806100110110\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast CAB Services.exe
 D:\YD\CAB Management Systeam__201806100110097__201806100110110\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast CAB Services.pdb
+D:\YD\CAB Management Systeam\Fast CAB Services\bin\Debug\Fast CAB Services.exe.config
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast CAB Services.exe
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast CAB Services.pdb
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast CAB Services.csprojResolveAssemblyReference.cache
+D:\YD\CAB Management Systeam\Fast CAB Services\bin\Debug\Database1.mdf
+D:\YD\CAB Management Systeam\Fast CAB Services\bin\Debug\Database1_log.ldf
+D:\YD\CAB Management Systeam\Fast CAB Services\bin\Debug\Fast CAB Services.exe
+D:\YD\CAB Management Systeam\Fast CAB Services\bin\Debug\Fast CAB Services.pdb
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_Admin.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminAllocationAdd.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminAllocationUpdate.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminManagerUpdate1.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminBillAdd.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminBillUpdate.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminBillView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminEmployeeRegistation.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminEmployeeUpdate.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminEmployeeView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminManagerUpdateForm.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminManagerView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminRouteUpdate.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminVehicleUpdate.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminVenderUpdate.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_ManagerAllocationAdd.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_ManagerAllocationView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_ManagerEmpRegistation.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_Login.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_Manager.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminManagerRegistation.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_ManagerEmpView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_ManagerVenderAdd.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_ManagerVenderView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Properties.Resources.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminRouteAdd.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminRouteView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminVehicleAdd.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminVehicleView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminVenderAdd.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast_CAB_Services.Form_AdminVenderView.resources
+D:\YD\CAB Management Systeam\Fast CAB Services\obj\x86\Debug\Fast CAB Services.csproj.GenerateResource.Cache

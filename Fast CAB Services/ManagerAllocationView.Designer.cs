@@ -119,6 +119,7 @@
             this.dataGridView_Allocation.RowTemplate.Height = 24;
             this.dataGridView_Allocation.Size = new System.Drawing.Size(1270, 512);
             this.dataGridView_Allocation.TabIndex = 0;
+            this.dataGridView_Allocation.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Allocation_CellContentClick);
             // 
             // gradientColor1
             // 

@@ -182,5 +182,10 @@ namespace Fast_CAB_Services
             faav.Show();
         }
 
+        private void panel_LoginPage_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
     }
 }

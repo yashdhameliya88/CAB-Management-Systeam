@@ -72,7 +72,7 @@ namespace Fast_CAB_Services
             {
                 string strUserPost = comboBox_UserPost.SelectedItem.ToString();
 
-                SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\Sem 4\GUI\Fast CAB Services\Fast CAB Services\Database1.mdf;Integrated Security=True;User Instance=True");
+                SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\YD\CAB Management Systeam\Fast CAB Services\Database1.mdf;Integrated Security=True;User Instance=True");
                 if (strUserPost == "Admin")
                 {
                     String query = "select * from tbl_Administator_Login where UserID='" + txt_UserID.Text.Trim() + "' and Password='" + txt_Password.Text.Trim() + "'";

@@ -164,6 +164,7 @@
             this.btn_Update.TabIndex = 67;
             this.btn_Update.Text = "Update";
             this.btn_Update.UseVisualStyleBackColor = false;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
             // 
             // gradientColor_TitleBar
             // 
@@ -228,6 +229,7 @@
             this.ClientSize = new System.Drawing.Size(1294, 768);
             this.Controls.Add(this.panel_LoginPage);
             this.Name = "Form_AdminBillUpdate";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminBillUpdate";
             this.panel_LoginPage.ResumeLayout(false);
             this.gradientColor_Emp_Reg_Form.ResumeLayout(false);

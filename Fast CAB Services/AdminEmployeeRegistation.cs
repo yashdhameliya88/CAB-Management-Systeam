@@ -12,8 +12,8 @@ namespace Fast_CAB_Services
 {
     public partial class Form_AdminEmployeeRegistation : Form
     {
-       
-        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\Sem 4\GUI\Fast CAB Services\Fast CAB Services\Database1.mdf;Integrated Security=True;User Instance=True");
+
+        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\YD\CAB Management Systeam\Fast CAB Services\Database1.mdf;Integrated Security=True;User Instance=True");
         
         public Form_AdminEmployeeRegistation()
         {

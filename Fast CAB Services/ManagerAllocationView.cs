@@ -12,7 +12,7 @@ namespace Fast_CAB_Services
 {
     public partial class Form_ManagerAllocationView : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\Sem 4\GUI\Fast CAB Services\Fast CAB Services\Database1.mdf;Integrated Security=True;User Instance=True");
+        SqlConnection con = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=D:\YD\CAB Management Systeam\Fast CAB Services\Database1.mdf;Integrated Security=True;User Instance=True");
 
         public Form_ManagerAllocationView()
         {
@@ -94,6 +94,11 @@ namespace Fast_CAB_Services
             {
                 MessageBox.Show("Something Wrong Please try Again...");
             }
+        }
+
+        private void dataGridView_Allocation_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -119,6 +119,7 @@
             this.dataGridView_EmployeeView.RowTemplate.Height = 24;
             this.dataGridView_EmployeeView.Size = new System.Drawing.Size(1270, 512);
             this.dataGridView_EmployeeView.TabIndex = 0;
+            this.dataGridView_EmployeeView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_EmployeeView_CellContentClick);
             // 
             // gradientColor1
             // 

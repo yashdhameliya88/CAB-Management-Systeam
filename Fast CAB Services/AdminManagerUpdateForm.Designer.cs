@@ -261,6 +261,7 @@
             this.btn_Update.TabIndex = 67;
             this.btn_Update.Text = "Update";
             this.btn_Update.UseVisualStyleBackColor = false;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
             // 
             // groupBox_PerAddress
             // 
